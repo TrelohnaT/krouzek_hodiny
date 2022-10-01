@@ -1,0 +1,59 @@
+/**
+    Verze: 1.0
+    Autor: Vaclav Dolecek
+*/
+
+body
+{
+    background-color: lightcoral;
+}
+
+
+h1
+{
+    text-align: center;
+    background-color: black;
+    color: white;
+    margin: 0px;
+    width: 50%;
+    align-self: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+
+}
+
+.el
+{
+    display: flex;
+    flex-direction: column;
+}
+
+#countdown
+{
+    align-self: center;
+    width: 50%;
+    text-align: center;
+    background-color: black;
+    font-size: 30px;
+    color: white;
+    border: 2px darkorange dashed;
+    margin-bottom: 10px;
+}
+
+#peepo_xmas
+{
+    display: none;
+    align-self: center;
+    width: 50%;
+    border: 5px darkorange solid;
+}
+
+#peepo_wait
+{
+    align-self: center;
+    width: 50%;
+    border: 5px darkorange solid;
+}
+
+
+
