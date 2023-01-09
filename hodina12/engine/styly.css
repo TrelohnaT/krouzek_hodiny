@@ -1,0 +1,51 @@
+#myCanvas
+{
+    border: 2px solid black;
+    width: 80%;
+    height: 80%;
+    margin-left: 10%;
+}
+
+#ui
+{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.color_buttons
+{
+    width: 50px;
+    height: 50px;
+
+
+}
+
+.color_buttons:hover
+{
+    border: 5px solid white;
+    border-style: double;
+
+}
+
+#color_red
+{
+    background-color: red;
+    color: red;
+
+}
+
+#color_green
+{
+    background-color: green;
+    color: green;
+
+}
+
+#color_blue
+{
+    background-color: blue;
+    color: blue;
+
+}
+

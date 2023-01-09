@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Engine</title>
+    <link rel="stylesheet" href="./styly.css">
+</head>
+
+<body onload="test()">
+
+    <div id="fps_counter">
+        0
+    </div>
+
+    <div id="ui">
+
+        <div id="user_a" class="user_ui">
+            <div id="user_a_colors" class="user_ui_colors">
+                <button id="color_red" class="color_buttons">red</button>
+                <button id="color_green" class="color_buttons">green</button>
+                <button id="color_blue" class="color_buttons">blue</button>
+
+
+            </div>
+
+            <div id="user_a_name" class="user_ui_name">
+                <input id="user_a_name_input" placeholder="Hráč A">
+
+            </div>
+
+        </div>
+
+        <div id="middle">
+
+            <div id="score">
+                0:0
+            </div>
+            <div id="play_stop">
+                II
+            </div>
+
+        </div>
+
+        <div id="user_b" class="user_ui">
+            <div id="user_b_colors" class="user_ui_colors">
+                <button id="color_red" class="color_buttons">red</button>
+                <button id="color_green" class="color_buttons">green</button>
+                <button id="color_blue" class="color_buttons">blue</button>
+
+
+            </div>
+
+            <div id="user_b_name" class="user_ui_name">
+                <input id="user_b_name_input" placeholder="Hráč B">
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <canvas id="myCanvas"></canvas>
+
+
+
+    <script src="./magic/Point.js"></script>
+    <script src="./magic/vector.js"></script>
+    <script src="./magic/shape.js"></script>
+    <script src="./magic/myCanvas.js"></script>
+    <script src="./magic/starter.js"></script>
+</body>
+
+</html>
