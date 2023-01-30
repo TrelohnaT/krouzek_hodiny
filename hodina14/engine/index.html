@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Engine</title>
+    <link rel="stylesheet" href="./styly.css">
+</head>
+
+<body onload="test()">
+
+    <div id="fps_counter">
+        0
+    </div>
+
+    <div id="ui">
+
+        <div id="user_a" class="user_ui">
+            <div id="user_a_colors" class="user_ui_colors">
+                <button id="color_red_a" class="color_buttons red" onclick="color_change(this.id, this.className)">red</button>
+                <button id="color_green_a" class="color_buttons green" onclick="color_change(this.id, this.className)">green</button>
+                <button id="color_blue_a" class="color_buttons blue" onclick="color_change(this.id, this.className)">blue</button>
+
+
+            </div>
+
+            <div id="user_a_name" class="user_ui_name">
+                <input id="user_a_name_input" placeholder="Hráč A">
+
+            </div>
+
+        </div>
+
+        <div id="middle">
+
+            <div id="score">
+
+                <span id="score_a">0</span>
+                <span>:</span>
+                <span id="score_b">0</span>
+
+            </div>
+            
+            <button id="play_stop">II</button>
+
+        </div>
+
+        <div id="user_b" class="user_ui">
+            <div id="user_b_colors" class="user_ui_colors">
+                <button id="color_red_b" class="color_buttons red" onclick="color_change(this.id, this.className)">red</button>
+                <button id="color_green_b" class="color_buttons green" onclick="color_change(this.id, this.className)">green</button>
+                <button id="color_blue_b" class="color_buttons blue" onclick="color_change(this.id, this.className)">blue</button>
+
+
+            </div>
+
+            <div id="user_b_name" class="user_ui_name">
+                <input id="user_b_name_input" placeholder="Hráč B">
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <canvas id="myCanvas"></canvas>
+
+
+
+    <script src="./magic/Point.js"></script>
+    <script src="./magic/vector.js"></script>
+    <script src="./magic/shape.js"></script>
+    <script src="./magic/myCanvas.js"></script>
+    <script src="./magic/myPlayer.js"></script>
+    <script src="./magic/starter.js"></script>
+</body>
+
+</html>
