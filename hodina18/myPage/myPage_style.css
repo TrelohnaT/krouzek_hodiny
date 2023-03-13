@@ -1,0 +1,77 @@
+body
+{
+    background-color: darkgray;
+    font-family: serif;
+
+}
+
+.content
+{
+    background-color: grey;
+    /*border: 2px solid black;*/
+    width: 80%;
+    margin-left: 10%;
+    text-align: center;
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    border-radius: 20px;
+
+}
+
+h2
+{
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+}
+
+#sub_menu
+{
+    display: flex;
+    margin-bottom: 10px;
+
+}
+
+.menu_btn
+{
+    flex: 1 1 auto;
+
+    margin-left: 5%;
+    margin-right: 5%;
+
+    background-color: darkgoldenrod;
+    color: white;
+    border: 0px;
+
+    padding: 5px;
+    border-radius: 15px;
+
+}
+
+.menu_btn:hover
+{
+    background-color: darkred;
+
+
+}
+
+
+#article
+{
+    display: flex;
+}
+
+.article_component
+{
+    flex: 1 1 auto;
+}
+
+#article_text
+{
+    display: none;
+
+
+}
+
