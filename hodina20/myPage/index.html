@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>programování</title>
+        <link rel="stylesheet" href="./myPage_style.css">
+    </head>
+    <body>
+        
+        <div id="header" class="content">
+            <h1>Hello world</h1>
+        </div>
+
+        <div id="menu" class="content">
+            <div id="menu_header">
+                <H2>Menu</H2>
+            </div>
+            <div id="sub_menu">
+                <button id="home_btn" class="menu_btn" onclick="go_home()">HOME</button>
+                <a href="./about_me.html" class="menu_btn">ABOUT ME</a>
+                <button id="content_btn" class="menu_btn">CONTENT</button>
+                <button id="rng_meme_btn" class="menu_btn" onclick="get_meme()">GET MEME</button>
+                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" class="menu_btn">
+                    NOT RICK
+                </a>
+            </div>
+            
+        </div>
+
+        <div id="meme" class="content">
+            <img id="meme_img">
+        </div>
+
+        <div id="article_a" class="content article" onmouseenter="article_text_show(this.id)" onmouseleave="article_text_hide(this.id)">
+
+            <div id="article_picture_a" class="article_component">
+
+                <img width="200px" height="400px" src="../obrazky/peepo_happy.png">
+
+            </div>
+
+            <div id="article_text_a" class="article_component article_text">
+                <p>
+                    Toto je text o tematu ktere jsem si vybral.
+                    Já jsem si vybral psát  o programování.
+                    Programování je hrozně super, neboť ho nikho moc neumí a vypáde pak jakože více to děláte.
+                    Vyučuji programovaní v SVČ kde to děti očividně baví a zajímá.
+                </p>
+
+
+            </div>
+
+        </div>
+
+        <div id="article_b" class="content article" onmouseenter="article_text_show(this.id)" onmouseleave="article_text_hide(this.id)">
+
+            <div id="article_picture_b" class="article_component">
+
+                <img width="200px" height="400px" src="../obrazky/peepo_happy.png">
+
+            </div>
+
+            <div id="article_text_b" class="article_component  article_text">
+                <p>
+                    Toto je text o tematu ktere jsem si vybral.
+                    Já jsem si vybral psát  o programování.
+                    Programování je hrozně super, neboť ho nikho moc neumí a vypáde pak jakože více to děláte.
+                    Vyučuji programovaní v SVČ kde to děti očividně baví a zajímá.
+                </p>
+
+
+            </div>
+
+        </div>
+
+        <div id="article_c" class="content article" onmouseenter="article_text_show(this.id)" onmouseleave="article_text_hide(this.id)">
+
+            <div id="article_picture_c" class="article_component">
+
+                <img width="200px" height="400px" src="../obrazky/peepo_happy.png">
+
+            </div>
+
+            <div id="article_text_c" class="article_component  article_text">
+                <p>
+                    Toto je text o tematu ktere jsem si vybral.
+                    Já jsem si vybral psát  o programování.
+                    Programování je hrozně super, neboť ho nikho moc neumí a vypáde pak jakože více to děláte.
+                    Vyučuji programovaní v SVČ kde to děti očividně baví a zajímá.
+                </p>
+
+
+            </div>
+
+        </div>
+
+        <script src="./myPage_scripts.js"></script>
+
+    </body>
+</html>
