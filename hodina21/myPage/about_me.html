@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>programování</title>
+        <link rel="stylesheet" href="./myPage_style.css">
+    </head>
+    <body>
+        
+        <div id="header" class="content">
+            <h1>ABOUT ME</h1>
+        </div>
+
+        <div id="menu" class="content">
+            <div id="menu_header">
+                <H2>Menu</H2>
+            </div>
+            <div id="sub_menu">
+                <a href="./index.html" class="menu_btn">HOME</a>
+                <a href="./about_me.html" class="menu_btn">ABOUT ME</a>
+                <button id="content_btn" class="menu_btn">CONTENT</button>
+                <button id="rng_meme_btn" class="menu_btn" onclick="get_meme()">GET MEME</button>
+                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" class="menu_btn">
+                    NOT RICK
+                </a>
+            </div>
+            
+        </div>
+
+        <div id="meme" class="content">
+            <img id="meme_img">
+        </div>
+
+        <div id="article_a" class="content article" onmouseenter="article_text_show(this.id)" onmouseleave="article_text_hide(this.id)">
+
+            <div id="article_picture_a" class="article_component">
+
+                <img width="200px" height="400px" src="../obrazky/peepo_happy.png">
+
+            </div>
+
+            <div id="article_text_a" class="article_component article_text">
+                <table>
+                    <tr>
+                        <th>Jméno</th>
+                        <th>:</th>
+                        <th>Václav</th>
+                    </tr>
+                    <tr>
+                        <th>Příjmení</th>
+                        <th>:</th>
+                        <th>Doleček</th>
+                    </tr>
+                    <tr>
+                        <th>Oblíbená barva</th>
+                        <th>:</th>
+                        <th>Oranžová</th>
+                    </tr>
+                    <thr>
+                        <th>Oblíbené Jídlo</th>
+                        <th>:</th>
+                        <th>řízek s bramborami</th>
+                    </thr>
+                </table>
+
+            </div>
+
+        </div>
+
+
+
+        <script src="./myPage_scripts.js"></script>
+
+    </body>
+</html>
